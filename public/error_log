@@ -1,0 +1,13 @@
+[06-Sep-2015 01:37:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cazusdev_erp.users' doesn't exist' in /home/cazusdev/public_html/ERP/vendor/laravel/framework/src/Illuminate/Database/Connection.php:292
+Stack trace:
+#0 /home/cazusdev/public_html/ERP/vendor/laravel/framework/src/Illuminate/Database/Connection.php(292): PDO->prepare('select * from `...')
+#1 /home/cazusdev/public_html/ERP/vendor/laravel/framework/src/Illuminate/Database/Connection.php(616): Illuminate\Database\Connection->Illuminate\Database\{closure}(Object(Illuminate\Database\MySqlConnection), 'select * from `...', Array)
+#2 /home/cazusdev/public_html/ERP/vendor/laravel/framework/src/Illuminate/Database/Connection.php(580): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home/cazusdev/public_html/ERP/vendor/laravel/framework/src/Illuminate/Database/Connection.php(297): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4  in /home/cazusdev/public_html/ERP/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 624
+[11-Sep-2015 11:53:20 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/cazusdev/public_html/ERP/resources/lang/en/texts.php on line 751
+[14-Oct-2015 12:50:40 UTC] PHP Fatal error:  Call to undefined method App\Console\Kernel::view() in /home/cazusdev/public_html/ERP/vendor/compiled.php on line 5481
+[14-Oct-2015 12:50:54 UTC] PHP Fatal error:  Call to undefined method App\Console\Kernel::view() in /home/cazusdev/public_html/ERP/vendor/compiled.php on line 5481
+[14-Oct-2015 12:51:21 UTC] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/cazusdev/public_html/ERP/app/Http/Controllers/HomeController.php on line 29
+[14-Oct-2015 12:52:10 UTC] PHP Fatal error:  Call to undefined method App\Console\Kernel::view() in /home/cazusdev/public_html/ERP/vendor/compiled.php on line 5483
+[14-Oct-2015 12:54:17 UTC] PHP Fatal error:  Call to undefined method App\Console\Kernel::exec() in /home/cazusdev/public_html/ERP/vendor/compiled.php on line 5483
